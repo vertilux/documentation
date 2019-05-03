@@ -12,3 +12,7 @@
   * [Customer Profile](customers/tutorials/customer-profile.md)
   * [Claims](customers/tutorials/claims.md)
 
+## Vendors
+
+* [Quick Start](vendors/quick-start.md)
+
