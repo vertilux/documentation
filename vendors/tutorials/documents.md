@@ -8,13 +8,13 @@ These records are kept in our database and you can see it from your side as well
 
 All the approvals will be in the system and when approved, you will receive an e-mail with the approval for your records. In Any event, you can always PRINT the SCREEN to keep your records, should you have a difficult printing them in a normal way.
 
-We are trying to set up the items we purchase from you, this information will include:
+We are trying to set up the items we purchase from you, this information will include:  
 
 1. The packing, as prearranged with us, depending on the type of product, however, for components, this quantity must be exactly the same every single time. Shipments must be of complete boxes or bags as prearranged with us.
 2. The Weights, Net Weight and Gross Weight, these two must be the same always per unit of measure \(UOM\).The total will be calculated by multiplying the quantity \(per pack to obtain the line weights, or total for the grand total per item\) times the Unit Weight.The only exclusion would be the aluminum extrusions since there are tolerances that will make the weight vary.
 3. The UNIT PRICE. Once approved by both and established in the list, they cannot be changed unless it's approved by both.
 
-## Creating a Document
+## Creating a Documents
 
 From the documents index view click on New Document \(as show in the screenshot below\) button and and choose the document required to work on:
 
@@ -98,4 +98,24 @@ A bill of lading is a document issued by a carrier to acknowledge receipt of car
 An ISF, also known as 10+2, is a filing required by the CBP that documents importing information and details, as shipments pass from point to point. Importers who do not file the ISF properly prior to the shipment of their goods will be penalized \(US$5,000 fine\).
 
 ![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.06.34-pm.png)
+
+## Updating Documents
+
+Keep in mind that you can always modify your documents before it has been submitted, these actions works for all documents, in this case we are using a Packing Lists as example.
+
+You can update and delete lines \(see image below\).
+
+![](../../.gitbook/assets/screen-shot-2019-05-04-at-4.40.04-pm.png)
+
+### Update Lines Modal
+
+![Simple form where you can edit all fields.](../../.gitbook/assets/screen-shot-2019-05-04-at-4.41.21-pm.png)
+
+## Submit & Delete Documents
+
+After you reviewed your document and all information if fine, you can proceed to submit your document; be aware that once a document is submitted cannot be modified.
+
+Delete action can be done only is the document is not submitted.
+
+![](../../.gitbook/assets/screen-shot-2019-05-04-at-4.41.40-pm.png)
 
