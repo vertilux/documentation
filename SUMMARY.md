@@ -19,4 +19,5 @@
   * [User Profile](vendors/tutorials/untitled.md)
   * [Purchase Orders](vendors/tutorials/purchase-orders.md)
   * [Company Profile](vendors/tutorials/untitled-2.md)
+  * [Documents](vendors/tutorials/documents.md)
 
