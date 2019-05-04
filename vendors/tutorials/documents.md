@@ -34,6 +34,37 @@ A packing list is a document that includes details about the contents of a packa
 
 ![You can select one or multiple Purchase Orders.](../../.gitbook/assets/screen-shot-2019-05-04-at-1.05.52-pm.png)
 
+#### Adding Items or Import them to the Packing List
+
+Once the Packing List is created the document lines will be blank, meaning no items listed on the document, at this point you can start adding the items or import them from a CSV \(Comma Separated Value\) file.
+
+![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.19.39-pm.png)
+
+#### Adding lines
+
+First select the Purchase Order and them the form will list the Items included in the Purchase Order selected, after select the Item, the fields Quantity and Price will be populated with the original quantity and price from the previous Proforma Invoice. Quantity can be change depending on the quantity produce and packed. Enter manually the Box Number, Gross and Net weight \(please be aware Net and Gross weight needs to be per units.
+
+![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.20.14-pm.png)
+
+#### Importing lines form CSV
+
+Is you prefer you can import the Packing List as CSV from a template you can download by clicking on the [Link](https://s3.amazonaws.com/erp-accpac/templates/document_lines.csv) as show in the image below.
+
+![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.20.32-pm.png)
+
+The template \(see the following image\) contain 8 columns:
+
+1. **ponumber**: Purchase Order Number
+2. **itemno**: Vertilux's Item Number
+3. **quantity**: Quantity Packed
+4. **box\_no**: Box Number
+5. **gross\_weight**: Gross Weight per units
+6. **measure\_gross\_weight**: Gross Weight unit of measure \(UOM\)
+7. **net\_weight**: Net Weight per units
+8. **measure\_net\_weight**: Net Weight unit of measure \(UOM\)
+
+![All columns are required.](../../.gitbook/assets/screen-shot-2019-05-04-at-1.37.50-pm.png)
+
 ### **Commercial Invoice** 
 
 The commercial invoice is a legal document between the supplier and the customer that clearly describes' the sold goods, and the amount due on the customer. The commercial invoice is one of the main documents used by customs in determining customs duties.
@@ -46,7 +77,11 @@ This document belongs to a Packing Lists, before creating it first needs to be c
 
 A bill of lading is a document issued by a carrier to acknowledge receipt of cargo for shipment.
 
+![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.06.54-pm.png)
+
 ### **Importer Security Filing \(ISF\)**
 
 An ISF, also known as “10+2,” is a filing required by the CBP that documents importing information and details, as shipments pass from point to point. Importers who do not file the ISF properly prior to the shipment of their goods will be penalized \(US$5,000 fine\).
+
+![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.06.34-pm.png)
 
