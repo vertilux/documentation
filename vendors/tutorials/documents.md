@@ -40,15 +40,15 @@ Once the Packing List is created the document lines will be blank, meaning no it
 
 ![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.19.39-pm.png)
 
-#### Adding lines
-
+{% tabs %}
+{% tab title="Adding Lines" %}
 First select the Purchase Order and them the form will list the Items included in the Purchase Order selected, after select the Item, the fields Quantity and Price will be populated with the original quantity and price from the previous Proforma Invoice. Quantity can be change depending on the quantity produce and packed. Enter manually the Box Number, Gross and Net weight \(please be aware Net and Gross weight needs to be per units.
 
 ![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.20.14-pm.png)
+{% endtab %}
 
-#### Importing lines form CSV
-
-Is you prefer you can import the Packing List as CSV from a template you can download by clicking on the [Link](https://s3.amazonaws.com/erp-accpac/templates/document_lines.csv) as show in the image below.
+{% tab title="Importing Lines" %}
+Lines can import the Packing List as CSV from a template you can download by clicking on the [Link](https://s3.amazonaws.com/erp-accpac/templates/document_lines.csv) as show in the image below.
 
 ![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.20.32-pm.png)
 
@@ -64,6 +64,20 @@ The template \(see the following image\) contain 8 columns:
 8. **measure\_net\_weight**: Net Weight unit of measure \(UOM\)
 
 ![All columns are required.](../../.gitbook/assets/screen-shot-2019-05-04-at-1.37.50-pm.png)
+
+Make sure the CSV file contain Purchase Orders that has been already selected on the Packing List \(when the document was created\), the Items entered are included on the Purchase Order and the rest of the fields were filled-out; otherwise you will get errors indicating the line and the error. Error example:
+
+{% hint style="danger" %}
+Line 7 - 0-000-01-08000 cannot be found.
+{% endhint %}
+
+If everything is fine after the import you'll get a messages saying the No. of lines imported:
+
+{% hint style="success" %}
+Imported 19 lines.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
 
 ### **Commercial Invoice** 
 
@@ -81,7 +95,7 @@ A bill of lading is a document issued by a carrier to acknowledge receipt of car
 
 ### **Importer Security Filing \(ISF\)**
 
-An ISF, also known as “10+2,” is a filing required by the CBP that documents importing information and details, as shipments pass from point to point. Importers who do not file the ISF properly prior to the shipment of their goods will be penalized \(US$5,000 fine\).
+An ISF, also known as 10+2, is a filing required by the CBP that documents importing information and details, as shipments pass from point to point. Importers who do not file the ISF properly prior to the shipment of their goods will be penalized \(US$5,000 fine\).
 
 ![](../../.gitbook/assets/screen-shot-2019-05-04-at-1.06.34-pm.png)
 
