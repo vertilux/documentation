@@ -16,8 +16,7 @@
 
 * [Quick Start](vendors/quick-start.md)
 * [Tutorials](vendors/tutorials/README.md)
-  * [User Profile](vendors/tutorials/untitled.md)
   * [Purchase Orders](vendors/tutorials/purchase-orders.md)
-  * [Company Profile](vendors/tutorials/untitled-2.md)
+  * [Company Profile](vendors/tutorials/vendor-profile.md)
   * [Documents](vendors/tutorials/documents.md)
 
